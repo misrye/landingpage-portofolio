@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio</title>
+</head>
+
+<body class="">
+    <!-- header -->
+    <header class="sticky backdrop-blur-sm bg-white/70 w-full top-0 z-10">
+        <div class="2xl:px-[11.8%] flex justify-between container mx-auto items-center px-7 py-4  lg:py-6 ">
+            <h1 class="text-sky-500 font-bold text-xl lg:text-2xl"><a href="">Missboy</a></h1>
+            <div class="hamburger relative group">
+                <div class="flex flex-col gap-1 lg:hidden">
+                    <span
+                        class="w-7 block h-1 rounded-full bg-slate-700 group-hover:rotate-45 origin-top-left transition-all"></span>
+                    <span class="w-7 block h-1 rounded-full bg-slate-700 group-hover:invisible"></span>
+                    <span
+                        class="w-7 block h-1 rounded-full bg-slate-700 group-hover:-rotate-45 origin-bottom-left group-hover:translate-y-0.5 transition-all"></span>
+                </div>
+                <div class="w-52 h-8 top-2 absolute right-0 hidden group-hover:block"></div>
+                <div
+                    class="menu bg-white pr-28 p-7 absolute top-10 right-0 rounded-lg group-hover:block hidden lg:block lg:top-0 lg:relative lg:p-0 lg:bg-transparent shadow-lg lg:shadow-none xl:pr-10 2xl:p-0">
+                    <ul class="flex flex-col gap-5 lg:gap-12 lg:flex-row lg:text-lg text-slate-900">
+                        <li><a href="#home" class="hover:text-sky-500">Home</a></li>
+                        <li><a href="#about" class="hover:text-sky-500">About</a></li>
+                        <li><a href="#portofolio" class="hover:text-sky-500">Portofolio</a></li>
+                        <li><a href="#clients" class="hover:text-sky-500">Clients</a></li>
+                        <li><a href="blog" class="hover:text-sky-500">Blog</a></li>
+                        <li><a href="contact" class="hover:text-sky-500">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="">
+    </header>
+
+    <!-- Hero Section -->
+    <section class="mt-24 2xl:px-[10%]">
+        <div class="container mx-auto px-7 flex flex-wrap items-center justify-center lg:justify-between ">
+            <div class="identitas w-full lg:w-1/2">
+                <p class="text-sky-500 font-semibold xl:text-2xl">Hello semua, perkenalkan saya</p>
+                <h1 class="text-slate-800 font-bold text-3xl mt-1 xl:text-5xl">Ahmad Misbach</h1>
+                <p class="text-slate-500 font-medium text-base mt-1 xl:text-2xl">Mahasiswa Teknik Informatika & <span
+                        class="text-slate-800">Junior UI/UX Designer</span></p>
+                <p class="mt-4 text-slate-500 xl:text-lg font-medium">Saya sedang menempuh pendidikan di Universitas
+                    Negeri Surabaya dan juga bekerja freelance sebagai UI/UX Designer</p>
+                <button class="mt-6 bg-sky-500 text-white font-medium py-2 px-8 rounded-full hover:shadow-lg hover:bg-sky-400 transition-all">Contact Me</button>
+            </div>
+            <div class="foto max-w-sm relative xl:pr-10 xl:max-w-lg">
+                <img src="../src/IMG_1630-1.png" alt="foto diri" class="scale-90 xl:scale-100">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+                    class=" -z-10 absolute bottom-0 scale-110">
+                    <path fill="rgb(14 165 233)"
+                        d="M54.4,-66.8C68.6,-52.9,76.9,-34,80.6,-14.1C84.3,5.8,83.3,26.7,73.4,41C63.4,55.3,44.6,63.1,28,63.3C11.3,63.5,-3.2,56.1,-20.3,51.7C-37.4,47.2,-57.2,45.8,-68.8,35.1C-80.5,24.4,-84.1,4.5,-79.1,-12.2C-74.1,-29,-60.6,-42.5,-45.9,-56.3C-31.3,-70.1,-15.7,-84.2,2.2,-86.9C20.1,-89.5,40.2,-80.7,54.4,-66.8Z"
+                        transform="translate(100 100)" />
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="mt-24 2xl:px-[10%]">
+        <div class="container mx-auto px-7">
+            <h2 class="text-sky-500 font-bold text-xl xl:text-2xl">About</h2>
+            <div class="about flex flex-wrap mt-5 gap-y-8 justify-between">
+                <div class="about1 lg:max-w-md xl:max-w-xl">
+                    <h3 class="text-2xl font-bold text-slate-800 xl:text-4xl">I will work according to the customer's
+                        wishes</h3>
+                    <p class="mt-2 text-slate-500 text-base xl:text-lg font-medium">Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Autem, tenetur neque impedit quisquam, incidunt dignissimos
+                        recusandae laudantium odio ex id numquam ducimus enim, repudiandae accusamus quae fuga
+                        accusantium! Autem, non?</p>
+                </div>
+                <div class="about2 lg:max-w-md xl:max-w-xl">
+                    <h3 class="text-2xl font-bold text-slate-800 xl:text-4xl">Let's make friends</h3>
+                    <p class="mt-2 text-slate-500 text-base font-medium xl:text-lg">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Beatae et repellat, doloribus tempora.</p>
+                    <div class="socialmedia flex gap-3 my-5">
+                        <a href="https://www.instagram.com/silverbullettt_?igsh=bzd3dGhmN3ZkdGdu" target="_blank"
+                            class="border inline-block rounded-full p-2 border-slate-600 hover:bg-sky-500 hover:border-white group transition-all">
+                            <svg width="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                                    fill="rgb(71 85 105)" class="group-hover:fill-white"/>
+                                <path
+                                    d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                                    fill="rgb(71 85 105)" class="group-hover:fill-white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                                    fill="rgb(71 85 105)" class="group-hover:fill-white" />
+                            </svg>
+                        </a>
+                        <a href="https://youtube.com/@pak_duta?si=_GIVi0FjK9Dc-c4O" target="_blank"
+                            class="border inline-block rounded-full p-2 border-slate-600 hover:bg-sky-500 hover:border-white group transition-all">
+                            <svg width="23px" viewBox="0 -3 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                                </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Dribbble-Light-Preview" transform="translate(-300.000000, -7442.000000)"
+                                        fill="rgb(71 85 105)" class="group-hover:fill-white">
+                                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                                            <path
+                                                d="M251.988432,7291.58588 L251.988432,7285.97425 C253.980638,7286.91168 255.523602,7287.8172 257.348463,7288.79353 C255.843351,7289.62824 253.980638,7290.56468 251.988432,7291.58588 M263.090998,7283.18289 C262.747343,7282.73013 262.161634,7282.37809 261.538073,7282.26141 C259.705243,7281.91336 248.270974,7281.91237 246.439141,7282.26141 C245.939097,7282.35515 245.493839,7282.58153 245.111335,7282.93357 C243.49964,7284.42947 244.004664,7292.45151 244.393145,7293.75096 C244.556505,7294.31342 244.767679,7294.71931 245.033639,7294.98558 C245.376298,7295.33761 245.845463,7295.57995 246.384355,7295.68865 C247.893451,7296.0008 255.668037,7296.17532 261.506198,7295.73552 C262.044094,7295.64178 262.520231,7295.39147 262.895762,7295.02447 C264.385932,7293.53455 264.28433,7285.06174 263.090998,7283.18289"
+                                                id="youtube-[#168]">
+
+                                            </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portofolio new project -->
+    <section class="bg-slate-100 2xl:px-[10%] mt-24">
+        <div class="container text-center mx-auto px-7 py-24">
+            <h2 class="font-semibold text-sky-500 text-xl">Portofolio</h2>
+            <h1 class="font-bold text-2xl text-slate-800 mt-3 lg:text-5xl">New Project</h1>
+            <p class="font-medium text-slate-600 text-lg max-w-xl mx-auto mt-3">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Accusantium cum facere iste, omnis amet nisi quidem consequatur qui incidunt sapiente,
+                culpa cumque dolores ducimus vel mollitia voluptate sequi illum dicta.</p>
+            <div class="media lg:flex justify-between flex-wrap">
+                <div class="mx-auto text-left lg:w-[47%] mt-12">
+                    <img src="../src/Screenshot 2024-07-30 200658.png" alt="portofolio" class="rounded-xl">
+                    <h3 class="text-xl text-slate-800 font-bold mt-4">Landing Page Missboy</h3>
+                    <p class="font-semibold text-slate-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Delectus hic exercitationem</p>
+                </div>
+                <div class="mx-auto text-left lg:w-[47%] mt-12">
+                    <img src="../src/Screenshot 2024-07-30 200658.png" alt="portofolio" class="rounded-xl">
+                    <h3 class="text-xl text-slate-800 font-bold mt-4">Landing Page Missboy</h3>
+                    <p class="font-semibold text-slate-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Delectus hic exercitationem</p>
+                </div>
+                <div class="mx-auto text-left lg:w-[47%] mt-12">
+                    <img src="../src/Screenshot 2024-07-30 200658.png" alt="portofolio" class="rounded-xl">
+                    <h3 class="text-xl text-slate-800 font-bold mt-4">Landing Page Missboy</h3>
+                    <p class="font-semibold text-slate-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Delectus hic exercitationem</p>
+                </div>
+                <div class="mx-auto text-left lg:w-[47%] mt-12">
+                    <img src="../src/Screenshot 2024-07-30 200658.png" alt="portofolio" class="rounded-xl">
+                    <h3 class="text-xl text-slate-800 font-bold mt-4">Landing Page Missboy</h3>
+                    <p class="font-semibold text-slate-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Delectus hic exercitationem</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients -->
+    <section class="2xl:px-[10%] bg-slate-700">
+        <div class="container text-center mx-auto px-7 py-24">
+            <h2 class="font-semibold text-sky-500 text-xl">Clients</h2>
+            <h1 class="font-bold text-2xl text-slate-100 mt-3 lg:text-5xl">Ever Cooperation</h1>
+            <p class="font-medium text-slate-400 text-lg mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Recusandae, voluptatibus.</p>
+            <div class="clients flex flex-wrap mt-20 justify-center gap-10">
+                <div class="w-32 h-32 overflow-hidden">
+                    <img src="../src/id-11134207-7r98q-lofiubq6heqp8c.jpeg" alt=""
+                        class="w-full h-full object-cover scale-150 saturate-0 hover:saturate-100 transition-all">
+                </div>
+                <div class="w-32 h-32 overflow-hidden bg-white p-4">
+                    <img src="../src/GKL3_Peterpan Band - Koleksilogo.com.jpg" alt=""
+                        class="w-full h-full object-contain saturate-0 hover:saturate-100 transition-all">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="2xl:px-[10%] bg-slate-100">
+        <div class="container text-center mx-auto px-7 py-24">
+            <h2 class="font-semibold text-sky-500 text-xl">Blog</h2>
+            <h1 class="font-bold text-2xl text-slate-800 mt-3 lg:text-5xl">Recent Posts</h1>
+            <p class="font-medium text-slate-600 text-lg max-w-xl mx-auto mt-3">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Accusantium cum facere iste</p>
+            <div class="media flex flex-wrap justify-between items-start">
+                <div class=" text-left lg:w-[32%] mt-12 bg-white shadow-xl rounded-xl overflow-hidden">
+                    <img src="../src/Screenshot 2024-07-30 200658.png" alt="portofolio">
+                    <div class="detail px-6 py-6">
+                        <a href="#"><h3 class="text-xl text-slate-800 font-bold hover:text-sky-500">Landing Page Missboy</h3></a>
+                        <p class="text-sm text-slate-500 mt-2 font-medium">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Delectus hic exercitationem Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Vero tempore recusandae tempora quam quisquam impedit incidunt. Cum at
+                            veritatis itaque ipsum magnam inventore reiciendis ad qui quos quaerat, odit saepe.</p>
+                        <button class="mt-6 bg-sky-500 text-white text-sm py-2 px-8 rounded-full hover:bg-sky-600 transition-all">Read More</button>
+                    </div>
+                </div>
+                <div class=" text-left lg:w-[32%] mt-12 bg-white shadow-xl rounded-xl overflow-hidden">
+                    <img src="../src/yt.png" alt="portofolio">
+                    <div class="detail px-6 py-6">
+                        <a href="#"><h3 class="text-xl text-slate-800 font-bold hover:text-sky-500">Landing Page Missboy</h3></a>
+                        <p class="text-sm text-slate-500 mt-2 font-medium">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Delectus hic exercitationem</p>
+                        <button class="mt-6 bg-sky-500 text-white text-sm py-2 px-8 rounded-full hover:bg-sky-600 transition-all">Read More</button>
+                    </div>
+                </div>
+                <div class=" text-left lg:w-[32%] mt-12 bg-white shadow-xl rounded-xl overflow-hidden">
+                    <img src="../src/Screenshot 2024-07-30 200658.png" alt="portofolio">
+                    <div class="detail px-6 py-6">
+                        <a href="#"><h3 class="text-xl text-slate-800 font-bold hover:text-sky-500">Landing Page Missboy</h3></a>
+                        <p class="text-sm text-slate-500 mt-2 font-medium">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Delectus hic exercitationem Lorem ipsum dolor sit.</p>
+                        <button class="mt-6 bg-sky-500 text-white text-sm py-2 px-8 rounded-full hover:bg-sky-600 transition-all">Read More</button>
+                    </div>
+                </div>
+                <div class=" text-left lg:w-[32%] mt-12 bg-white shadow-xl rounded-xl overflow-hidden">
+                    <img src="../src/Screenshot 2024-07-30 200658.png" alt="portofolio">
+                    <div class="detail px-6 py-6">
+                        <a href="#"><h3 class="text-xl text-slate-800 font-bold hover:text-sky-500">Landing Page Missboy</h3></a>
+                        <p class="text-sm text-slate-500 mt-2 font-medium">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Delectus hic exercitationem Lorem ipsum dolor sit. Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Dolores harum veritatis excepturi iure molestiae id
+                            maiores porro cumque officia, dolorum maxime obcaecati quos vitae. Similique voluptatem
+                            perferendis exercitationem quos aut?</p>
+                        <button class="mt-6 bg-sky-500 text-white text-sm py-2 px-8 rounded-full hover:bg-sky-600 transition-all">Read More</button>
+                    </div>
+                </div>
+                <div class=" text-left lg:w-[32%] mt-12 bg-white shadow-xl rounded-xl overflow-hidden">
+                    <img src="../src/yt.png" alt="portofolio">
+                    <div class="detail px-6 py-6">
+                        <a href="#"><h3 class="text-xl text-slate-800 font-bold hover:text-sky-500">Landing Page Missboy</h3></a>
+                        <p class="text-sm text-slate-500 mt-2 font-medium">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Delectus hic exercitationem</p>
+                        <button class="mt-6 bg-sky-500 text-white text-sm py-2 px-8 rounded-full hover:bg-sky-600 transition-all">Read More</button>
+                    </div>
+                </div>
+                <div class=" text-left lg:w-[32%] mt-12 bg-white shadow-xl rounded-xl overflow-hidden">
+                    <img src="../src/xlient.png" alt="portofolio" width="auto">
+                    <div class="detail px-6 py-6">
+                        <a href="#"><h3 class="text-xl text-slate-800 font-bold hover:text-sky-500">Landing Page Missboy</h3></a>
+                        <p class="text-sm text-slate-500 mt-2 font-medium">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Delectus hic exercitationem</p>
+                        <button class="mt-6 bg-sky-500 text-white text-sm py-2 px-8 rounded-full hover:bg-sky-600 transition-all">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="2xl:px-[10%] bg-slate-700">
+        <div class="container mx-auto px-7 py-24 max-w-[70%]">
+            <div class="detail text-center">
+                <h2 class="font-semibold text-sky-500 text-xl">Contact</h2>
+                <h1 class="font-bold text-2xl text-slate-100 mt-3 lg:text-5xl">Contact Me</h1>
+                <p class="font-medium text-slate-400 text-lg max-w-xl mx-auto mt-3">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Accusantium cum facere iste</p>
+            </div>
+            <form action="" class="mt-24">
+                <!-- nama -->
+                <label for="nama"
+                    class="after:content-['*'] after:ml-0.5 after:text-red-500 font-medium text-sky-500 text-lg">Name</label>
+                <input type="text" id="nama" name="nama"
+                    class="block mt-1 px-3 py-2 bg-white border border-slate-300 shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500  w-full rounded-md focus:ring-1"
+                    placeholder="Your Name">
+
+                <!-- email -->
+                <label for="email"
+                    class="mt-6 after:content-['*'] after:ml-0.5 after:text-red-500 block font-medium text-sky-500 text-lg">Email</label>
+                <input type="email" id="email" name="email"
+                    class="peer mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md focus:ring-1 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
+                    placeholder="you@example.com">
+                <p class="mt-2 hidden peer-invalid:block text-pink-600 text-sm">Please provide a valid email address.
+                </p>
+
+                <!-- message -->
+                <label for="message" class="mt-6 block font-medium text-sky-500 text-lg">Message</label>
+                <textarea name="message" id="message" rows="4"
+                    class="block mt-1 px-3 py-2 bg-white border border-slate-300 shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500  w-full rounded-md focus:ring-1"
+                    placeholder="Write your message"></textarea>
+
+                <!-- submit button -->
+                <input type="submit" value="Send"
+                    class="bg-sky-500 py-2 w-full rounded-full text-white font-medium mt-8 cursor-pointer transition-all hover:bg-sky-600 hover:shadow-lg">
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="2xl:px-[10%] bg-slate-900">
+        <div class="container mx-auto px-7 pt-24 pb-14 flex flex-wrap gap-y-10 md:justify-around text-slate-400">
+            <div class="alamat w-full md:w-[30%] ">
+                <h1 class="text-4xl font-bold text-white">Rembang</h1>
+                <h2 class="text-xl font-bold mt-4">Contact Me</h2>
+                <span class="block text-lg font-medium mt-2">fakeahmad28@gmail.com</span>
+                <span class="block text-lg font-medium">Jalan Ketintang, Gayungan, Surabaya, Jawa Timur</span>
+            </div>
+            <div class="categories w-full md:w-[30%]">
+                <h2 class="text-xl font-bold text-white">Categories Writings</h2>
+                <ul class="text-lg font-normal mt-2 gap-2 flex flex-col">
+                    <li><a href="#programming" class="hover:text-sky-500">Programming</a></li>
+                    <li><a href="#technology" class="hover:text-sky-500">Technology</a></li>
+                    <li><a href="design" class="hover:text-sky-500">Design</a></li>
+                </ul>
+            </div>
+            <div class="link w-full md:w-[30%]">
+                <h2 class="text-xl font-bold text-white">Link Categories</h2>
+                <ul class="text-lg font-normal mt-2 gap-2 flex flex-col">
+                    <li><a href="#home" class="hover:text-sky-500">Home</a></li>
+                    <li><a href="#about" class="hover:text-sky-500">About</a></li>
+                    <li><a href="#portofolio" class="hover:text-sky-500">Portofolio</a></li>
+                    <li><a href="#clients" class="hover:text-sky-500">Clients</a></li>
+                    <li><a href="#blog" class="hover:text-sky-500">Blog</a></li>
+                    <li><a href="#contact" class="hover:text-sky-500">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright py-14">
+            <div class="socialmedia flex gap-3 my-5 justify-center">
+                <a href="https://www.instagram.com/silverbullettt_?igsh=bzd3dGhmN3ZkdGdu" target="_blank"
+                    class="border inline-block rounded-full p-2 border-slate-600 hover:bg-sky-500 hover:border-white group transition-all">
+                    <svg width="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                            fill="rgb(71 85 105)" class="group-hover:fill-white"/>
+                        <path
+                            d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                            fill="rgb(71 85 105)" class="group-hover:fill-white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                            fill="rgb(71 85 105)" class="group-hover:fill-white" />
+                    </svg>
+                </a>
+                <a href="https://youtube.com/@pak_duta?si=_GIVi0FjK9Dc-c4O" target="_blank"
+                    class="border inline-block rounded-full p-2 border-slate-600 hover:bg-sky-500 hover:border-white group transition-all">
+                    <svg width="23px" viewBox="0 -3 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                        </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-300.000000, -7442.000000)"
+                                fill="rgb(71 85 105)" class="group-hover:fill-white">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path
+                                        d="M251.988432,7291.58588 L251.988432,7285.97425 C253.980638,7286.91168 255.523602,7287.8172 257.348463,7288.79353 C255.843351,7289.62824 253.980638,7290.56468 251.988432,7291.58588 M263.090998,7283.18289 C262.747343,7282.73013 262.161634,7282.37809 261.538073,7282.26141 C259.705243,7281.91336 248.270974,7281.91237 246.439141,7282.26141 C245.939097,7282.35515 245.493839,7282.58153 245.111335,7282.93357 C243.49964,7284.42947 244.004664,7292.45151 244.393145,7293.75096 C244.556505,7294.31342 244.767679,7294.71931 245.033639,7294.98558 C245.376298,7295.33761 245.845463,7295.57995 246.384355,7295.68865 C247.893451,7296.0008 255.668037,7296.17532 261.506198,7295.73552 C262.044094,7295.64178 262.520231,7295.39147 262.895762,7295.02447 C264.385932,7293.53455 264.28433,7285.06174 263.090998,7283.18289"
+                                        id="youtube-[#168]">
+
+                                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <span class="text-slate-400 text-center block mt-5">Created by <span class="text-sky-500">Missboy</span> 🩷</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
